@@ -1,0 +1,25 @@
+{
+  "name": "xsl",
+  "displayName": "xsl boilerplate dev",
+  "publisher": "DevWajahat",
+  "description": "xsl basic code",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.0.0"
+},
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "xsl",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "fast-xml-parser": "^4.3.5"
+  }
+}

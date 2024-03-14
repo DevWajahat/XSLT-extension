@@ -1,0 +1,68 @@
+// {   
+//     "xsl ":{
+//     "prefix":"xslt",
+//     "body": [
+        
+//                 "<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">",
+//                 "<xsl:template match=\"/ \">","\n",
+//                " </xsl:template>",
+//                 "<xsl:stylesheet>"
+//            ],    
+//            "description": "xsl boilercode"
+//     },
+    
+// }
+{
+    "xsl boiler code": {
+      "prefix": "xslt",
+      "body": [
+        "<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">",
+        "  <xsl:template match=\"/ \">",
+        "  ",       
+        "   </xsl:template>",
+        "</xsl:stylesheet>"
+      ],
+      "description": "xsl boiler code"
+    },
+    "html": {
+      "prefix": "html",
+      "body": [
+        "    <html lang=\"en\">",
+      "      <head>",
+      "      </head>",
+      "      <style>",
+      "      </style>",
+      "      <body>",
+      "             ",      
+      "      </body>",
+      "    </html>",
+      ],
+      "description": "html boiler code"
+    },
+    
+        "for Each": {
+          "prefix": "foreach",
+          "body": ["<xsl:for-each select=\"\">","</xsl:for-each>"],
+          "description": "for each loop"
+        },
+      
+        "value of": {
+          "prefix": "value",
+          "body": "<xsl:value-of select=\"\"/>",
+          "description": "valueof"
+        },
+        "table": {
+          "prefix": "table",
+          "body": [
+  "        <table>",
+  "          <tr>",
+  "            <th>${1:Header}</th>",
+  "          </tr>",
+  "          <tr>",
+  "            <td>${2:Content}</td>",
+  "          </tr>",
+  "        </table> "
+          ],
+          "description": "table"
+        }
+  }
