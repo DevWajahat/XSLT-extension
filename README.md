@@ -1,6 +1,4 @@
-Here’s a concise documentation file for the extension:
 
----
 
 # XSL Boilerplate Dev
 
@@ -52,4 +50,4 @@ We welcome contributions to improve this extension. Please follow these steps:
 
 For issues or feature requests, visit the [GitHub repository](#) or contact the developer through the VS Code marketplace.
 
----
+
